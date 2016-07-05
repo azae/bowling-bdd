@@ -34,13 +34,6 @@
             <version>${cucumber.version}</version>
             <scope>test</scope>
         </dependency>
-        <!-- cucumber with lambda -->
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-java8</artifactId>
-            <version>${cucumber.version}</version>
-            <scope>test</scope>
-        </dependency>
         <!-- JUnit runner -->
         <dependency>
             <groupId>info.cukes</groupId>
