@@ -19,12 +19,6 @@ public class BowlingGameAnnotedScenario {
             game.roll(0);
     }
 
-    @When("^all of my balls knock down (\\d+) pin")
-    public void knockDownPins(Integer pins) {
-        for (int i = 0; i < 20; i++)
-            game.roll(pins);
-    }
-
     @Then("my score should be (\\d+)$")
     public void myScoreShouldBe(int score) {
         Assert.assertEquals(score, game.score());
