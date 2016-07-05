@@ -3,9 +3,7 @@ Feature: Bowling
   As ...
   I want to ...
 
-  Background:
-    Given ...
-
   Scenario: I never knock down pin
+    Given a new bowling game
     When all of my balls are landing in the gutter
     Then my score should be 0
